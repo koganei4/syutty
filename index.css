@@ -212,17 +212,40 @@ footer{
     font-size:18px;
 }
 
-@media all and(max-width:670px){
-.container{
-    width:100%;
-}
+@media screen and (max-width:670px){
 
-.contents{
-    flex-direction:column;
-}
+    header{
+        height:50px;
+        width:100%;
+    }
 
-.content{
-    margin:0 auto;
-}
+    .header-logo{
+        height:36px;
+        padding:7px;
+        font-size:22px;
+    }
+
+    .header-list li{
+        display:none;
+    }
+
+    .heading h1{
+        text-align:left;
+        margin-left:20px;
+    }
+
+    .introduce p{
+        width:80%;
+    }
+
+    .main-contents{
+        padding-bottom:70px;
+    }
+    
+    .content{
+        width:100%!important;
+        margin:0 auto;
+        margin-bottom:40px;
+    }
 
 }
