@@ -211,3 +211,18 @@ footer{
     margin-right:10px;
     font-size:18px;
 }
+
+@media all and(max-width:670px){
+.container{
+    width:100%;
+}
+
+.contents{
+    flex-direction:column;
+}
+
+.content{
+    margin:0 auto;
+}
+
+}
