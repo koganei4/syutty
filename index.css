@@ -6,10 +6,6 @@ a{
     text-decoration: none;
 }
 
-h1,h2,h3{
-    margin:0;
-}
-
 header{
     height:70px;
     width:100%;
@@ -30,7 +26,6 @@ header{
     color:white;
     padding:12px;
     margin:0;
-    float:left;
 }
 
 .header-list li{
@@ -42,15 +37,15 @@ header{
 }
 
 .top-wrapper{
-    padding:150px 0 400px 0;
-    height:400px;
+    padding:150px 0 100px 0;
     background-image:url("https://cdn.pixabay.com/photo/2019/08/09/13/52/portrait-4395124__340.jpg");
     background-size:cover;
 }
 
 .container{
     text-align:center;
-    width:1070px;
+    max-width:1070px;
+    width:100%;
     margin:0 auto;
 }
 
@@ -108,7 +103,6 @@ header{
 }
 
 .introduction-wrapper{
-    height:600px;
     padding:100px 0 ;
     background-color:azure;
     position:relative;
@@ -131,7 +125,6 @@ header{
 }
 
 .main-contents{
-    height:450px;
     padding:80px 0;
     text-align:left;
     background-color:ghostwhite;
@@ -158,28 +151,22 @@ h3{
     border-radius:25px;
 }
 
-.content p{
+.text-contents{
     display:inline-block;
     width:70%;
     font-size:16px;
 }
 
+
+
+.clear{
+    clear:left;
+}
+
 .notice{
-    height:150px;
-    padding:50px 0;
-}
-
-footer{
-    height:45px;
-    background-color:darkblue;
-    color:white;
-}
-
-.footer-logo{
-    font-family:Century;
-    margin:0 0 0 15px;
-    float:left;
-    font-size:22px;
+    padding-top:30px;
+    padding-bottom:70px;
+    border-bottom:2px solid black;
 }
 
 .notice p{
@@ -210,6 +197,19 @@ footer{
 .fa-camera-retro{
     margin-right:10px;
     font-size:18px;
+}
+
+footer{
+    padding:3px 0;
+    background-color:darkblue;
+    color:white;
+    display:none;
+}
+
+.footer-logo{
+    font-family:Century;
+    float:left;
+    font-size:22px;
 }
 
 @media screen and (max-width:670px){
