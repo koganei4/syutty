@@ -242,6 +242,7 @@ footer{
 
     .greet p{
         width:80%;
+        font-size:12px;
     }
 
     .main-contents{
@@ -252,6 +253,10 @@ footer{
         width:100%!important;
         margin:0 auto;
         margin-bottom:40px;
+    }
+    
+    text-contents{
+        font-size:12px;
     }
 
 }
