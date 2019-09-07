@@ -242,7 +242,8 @@ footer{
 
     .greet p{
         width:80%;
-        font-size:12px;
+        font-size:13px;
+        letter-spacing:0;
     }
 
     .main-contents{
